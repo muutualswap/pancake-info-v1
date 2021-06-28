@@ -12,17 +12,17 @@ export default function ThemeProvider({ children }) {
 
 const theme = (darkMode, color) => ({
   customColor: color,
-  textColor: darkMode ? color : 'black',
+  textColor: darkMode ? color : '#ffffff',
 
   panelColor: darkMode ? 'rgba(255, 255, 255, 0)' : 'rgba(255, 255, 255, 0)',
-  backgroundColor: darkMode ? '#191326' : '#f5f3f3',
+  backgroundColor: darkMode ? '#191326' : '#0000b8',
 
   // uniswapPink: darkMode ? '#4FD8DE' : 'black',
   uniswapPink: darkMode ? 'red' : 'black',
 
   concreteGray: darkMode ? '#292C2F' : '#fffdfa',
   inputBackground: darkMode ? '#1F1F1F' : '#fffdfa',
-  shadowColor: darkMode ? '#000' : '#2F80ED',
+  shadowColor: darkMode ? '#ffffff' : '#ffffff',
   mercuryGray: darkMode ? '#333333' : '#E1E1E1',
 
   text1: darkMode ? '#fffdfa' : '#1F1F1F',
@@ -49,14 +49,14 @@ const theme = (darkMode, color) => ({
   divider: darkMode ? 'rgba(43, 43, 43, 0.435)' : 'rgba(43, 43, 43, 0.035)',
 
   //primary colors
-  primary1: darkMode ? '#2172E5' : '#4FD8DE',
+  primary1: darkMode ? '#2172E5' : '#0000B8',
   primary2: darkMode ? '#3680E7' : '#FF8CC3',
   primary3: darkMode ? '#4D8FEA' : '#FF99C9',
   primary4: darkMode ? '#376bad70' : '#F6DDE8',
   primary5: darkMode ? '#153d6f70' : '#FDEAF1',
 
   // color text
-  primaryText1: darkMode ? '#6da8ff' : '#4FD8DE',
+  primaryText1: darkMode ? '#FFFFFF' : '#4FD8DE',
 
   // secondary colors
   secondary1: darkMode ? '#2172E5' : '#4FD8DE',
